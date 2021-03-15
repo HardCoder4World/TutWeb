@@ -27,6 +27,10 @@ img {
   color: #ffffff;
 }
 
+.nav-contianer a span {
+  color: #FFC9E2;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,7 +56,7 @@ header ul a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 1vh;
+  padding: 0 2vh;
 }
 
 .programer {
@@ -225,6 +229,54 @@ section {
     -ms-grid-columns: (auto)[3];
         grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
+  }
+}
+
+@media only screen and (min-width: 1030px) {
+  body {
+    font-size: 17px;
+  }
+  .nav-contianer {
+    font-size: 1.3em;
+  }
+  .nav-contianer nav {
+    padding-right: 3em;
+  }
+  .hero {
+    height: 25em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% auto;
+        grid-template-columns: 60% auto;
+  }
+  .hero .programer {
+    display: -ms-grid;
+    display: grid;
+    width: 40em;
+    margin-top: -3em;
+  }
+  .hero .content {
+    text-align: center;
+    padding-top: 7em;
+  }
+  .mean {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .mean .title {
+    font-size: 20px;
+  }
+  .type-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .language-container {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .language-container-right {
+    margin-left: 5%;
+    margin-right: 10%;
   }
 }
 /*# sourceMappingURL=style.css.map */
